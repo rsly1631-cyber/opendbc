@@ -1243,6 +1243,17 @@ FW_VERSIONS = {
     (Ecu.abs, 0x7d1, None): [
       b'\xf1\x00KA4 ESC \x03 107"\x07\x06 58910-R0150',
     ],
+    (Ecu.combinationMeter, 0x7c6, None): [
+      b'\xf1\x00100',
+      b'\xf1\x8b #\x12\x04',
+    ],
+    (Ecu.hvac, 0x7b3, None): [
+      b"\xf1\x00KA4  97250-R0000CONTROL ASS'Y-MANUALV1-02-0     ",
+    ],
+    (Ecu.cornerRadar, 0x7b7, None): [
+      b'\xf1\x00KA4 BCW RR 1.00 , 1.00 (\x81\x06\x86#\x02\x97\x04$',
+      b'\xf1\x8b #\x11\x17 #\x10$',
+    ],
   },
   CAR.KIA_K7_2017: {
     (Ecu.fwdCamera, 0x7c4, None): [

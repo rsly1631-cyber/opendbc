@@ -1230,6 +1230,17 @@ FW_VERSIONS = {
       b'\xf1\x00KA4_ SCC FHCUP      1.00 1.03 99110-R0000         ',
       b'\xf1\x00KA4c SCC FHCUP      1.00 1.01 99110-I4000         ',
     ],
+    (Ecu.engine, 0x7e0, None): [
+      b'\xf1\x87391103N693\x00\xf1\x89GKA-4NU0HF400M03\xf1\x82GKA-4NU0HF400M03',
+    ],
+    (Ecu.transmission, 0x7e1, None): [
+      b'\xf1\x00PSBG2441  F097\x00\x00\x00\x00\x00\x00TKA4G35X0XSA2NS1ZH\x0f\x87',
+    ],
+    (Ecu.eps, 0x7d4, None): [
+      b'\xf1\x00KA4 MDPS C 1.00 1.06 56370-R0000 3116',
+    ],
+    (Ecu.abs, 0x7d1, None): [
+      b'\xf1\x00KA4 ESC \x03 107"\x07\x06 58910-R0150',
   },
   CAR.KIA_K7_2017: {
     (Ecu.fwdCamera, 0x7c4, None): [
